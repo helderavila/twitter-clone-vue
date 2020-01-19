@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Helder Avila",
     "user": "helderavila10",
-    "avatar_url": "./api/avatar/helderavila.png",
+    "avatar_url": "./api/avatar.png",
     "message": "JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multi-paradigmas.",
     "date": "23-10-2019"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Avila Helder",
     "user": "avilahelder0310",
-    "avatar_url": "./api/avatar/helderavila.png",
+    "avatar_url": "./api/avatar.png",
     "message": "Em novembro de 1996, a Netscape submeteu o JavaScript à ECMA International para criar uma especificação padrão, que outros fornecedores de navegador poderiam implementar com base no trabalho feito na Netscape",
     "date": "29-10-2019"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Josefino",
     "user": "josefino2019",
-    "avatar_url": "./api/avatar/helderavila.png",
+    "avatar_url": "./api/avatar.png",
     "message": "Com o tempo, ficou claro que a Microsoft não tinha intenção de cooperar ou implementar o JavaScript adequado no Internet Explorer",
     "date": "10-10-2019"
   }

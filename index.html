@@ -10,7 +10,16 @@
 </head>
 <body>
   <div id="app">
-    {{tweets}}
+    <section class="tweets">
+      <div class="tweet" v-for="item in tweets" :key="item.id">
+        <img :src="item.avatar_url" :alt="item.name" class="user-avatar">
+        <div class="tweet-info">
+          <h1 class="user-name">{{item.name}}</h1>
+          <p class="user">@{{item.user}}</p>
+          <p class="tweet-message">{{item.message}}</p>
+        </div>
+      </div>
+    </section>
   </div>
   <script src="./app.js"></script>
 </body>
