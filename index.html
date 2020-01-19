@@ -14,10 +14,14 @@
       <div class="tweet" v-for="item in tweets" :key="item.id">
         <img :src="item.avatar_url" :alt="item.name" class="user-avatar">
         <div class="tweet-info">
-          <h1 class="user-name">{{item.name}}</h1>
-          <p class="user">@{{item.user}}</p>
+          <div style="display: flex; align-items: center;">
+            <h1 class="user-name">{{item.name}}</h1>
+            <p class="user">@{{item.user}}</p>
+          </div>
           <p class="tweet-message">{{item.message}}</p>
         </div>
+        <img @click="item.likes++" src="./assets/heart.svg" alt="Like" class="btn-like">
+        <p class="likes">{{item.likes}}</p>
       </div>
     </section>
   </div>

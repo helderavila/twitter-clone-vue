@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 body, h1, h2, ul, li, p {
   padding: 0;
   margin: 0;
@@ -43,17 +42,37 @@ body {
 }
 
 .user-name {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fffffe;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .user {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fffffe;
+  margin-left: 5px;
+  font-size: 14px;
 }
 
 .tweet-message {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #a7a9be;
+  font-size: 18px;
+}
+
+.btn-like {
+  margin-top: 10px;
+  width: 40px;
+}
+
+.btn-like:hover {
+  fill: red;
+}
+
+.likes {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #a7a9be;
+  margin-left: 18px;
 }
